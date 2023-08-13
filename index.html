@@ -9,30 +9,72 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
 
-    <title>Frontend Mentor | Profile card component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <title>Frontend Mentor | Results summary component</title>
   </head>
   <body>
-    <div class="container">
-      <div class="cart">
-        <div class="top-backround">
-          <img src="images/bg-pattern-card.svg" alt="bg-pattern-card" />
+    <div class="cart">
+      <div class="container">
+        <div class="block1">
+          <h1 class="Result">Your Result</h1>
+          <div class="centre-circle">
+            <div class="circle">
+              <p class="c76">76</p>
+              <p class="c100">of 100</p>
+            </div>
+          </div>
+          <p class="Great">Great</p>
+          <div class="score">
+            <p>
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </div>
         </div>
-        <div class="top">
-          <img src="images/image-victor.jpg" alt="Victor" class="victor" />
-        </div>
-        <h1>Victor Crest <span> 26</span></h1>
-        <h3>London</h3>
-        <hr />
-        <div class="bot">
-          <p>80K <br /><span> Followers</span></p>
-          <p>803K <br /><span> Likes</span></p>
-          <p>1.4K <br /><span> Photos</span></p>
+        <div class="block2">
+          <h1 class="summary">Summary</h1>
+          <div class="block3">
+            <div class="add">
+              <div class="add0">
+                <img src="assets/images/icon-reaction.svg" alt="" />
+                <p class="word1">Reaction</p>
+              </div>
+              <p>80 / 100</p>
+            </div>
+            <div class="add">
+              <div class="add0">
+                <img src="assets/images/icon-memory.svg" alt="" />
+                <p class="word2">Memory</p>
+              </div>
+              <p>92 / 100</p>
+            </div>
+            <div class="add">
+              <div class="add0">
+                <img src="assets/images/icon-verbal.svg" alt="" />
+                <p class="word3">Verbal</p>
+              </div>
+              <p>61 / 100</p>
+            </div>
+            <div class="add">
+              <div class="add0">
+                <img src="assets/images/icon-visual.svg" alt="" />
+                <p class="word4">Visual</p>
+              </div>
+              <p>72 / 100</p>
+            </div>
+          </div>
+          <div class="btn">
+            <p>Continue</p>
+          </div>
         </div>
       </div>
     </div>
